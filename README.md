@@ -1,5 +1,7 @@
 # Vertrical Challenge
 
+This application has been built using React.js, Node.js, Express.js, SQLite3 and TypeScript.
+
 After cloning the repository, please follow these steps:
 
 ## Step 1: Run the back-end of the project.
