@@ -26,13 +26,6 @@ export const createWand = async ({ title, image, description, shortDescription }
   }
 }
 
-// export const loadWands = async (wands : any[]) => {
-//   await Promise.all(wands.map(async (wand : any) => {
-//     createWand(wand);
-//   }));
-
-//   return wands;
-// }
 export const loadWands = async (wands : any[]) => {    
   console.log('SERVICE - wands[0] =', wands[0]);
   await Promise.all(wands.map(async (wand : any) => {

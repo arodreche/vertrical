@@ -1,8 +1,5 @@
 import { Connection, createConnection, SimpleConsoleLogger } from "typeorm";
 import dotenv from 'dotenv';
-import { createWand } from "src/app/wands/wands.service";
-
-import * as WandsData from 'src/database/data.json';
 
 dotenv.config({});
 class Database {
@@ -30,9 +27,6 @@ class Database {
     }).then(_con => {
       this.connection = _con;
       console.log("Connected to db!!");
-      // WandsData.map(async (wand : any) => {
-      //   createWand(wand);
-      // })
     }).catch(console.error)
   }
 
