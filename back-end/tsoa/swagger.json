@@ -95,15 +95,7 @@
 					"Wand"
 				],
 				"security": [],
-				"parameters": [],
-				"requestBody": {
-					"required": true,
-					"content": {
-						"application/json": {
-							"schema": {}
-						}
-					}
-				}
+				"parameters": []
 			}
 		},
 		"/wands/update/{id}": {
